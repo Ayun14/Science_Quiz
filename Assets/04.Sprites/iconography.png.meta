@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 14f0be3d95c1260479f245e8d04c74a9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iconography_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3564
+        width: 325
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d0001a3ca189e4ea517368883a4525
+      internalID: -446630527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3635
+        width: 316
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed189bb480784af4caab15c6463a6d9d
+      internalID: 1983615222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_3
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 3594
+        width: 357
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc4a44d885e0c489b8f3d209175bdd
+      internalID: -1970521237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_4
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 3598
+        width: 345
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf805eeb129852a48931e391e86375ff
+      internalID: 743898376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_5
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 3611
+        width: 355
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9109b48747bfaec4dbd80d5369780b3c
+      internalID: 467099734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_6
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 3600
+        width: 310
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c53b7a4ad2e22e40ad80c3c171f312b
+      internalID: -2138280111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2899
+        width: 333
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcb39b33473bba4eb35780e335d7fa3
+      internalID: -1007614599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_14
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2942
+        width: 363
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac2fc688168f2c41987f6f588f91471
+      internalID: -1026129492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_17
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 2915
+        width: 274
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014767d50ad0f94da94d0f6ffa8ef15
+      internalID: -1323950448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_18
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2884
+        width: 391
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f2d3fe64ce7f94d944b08b5f303059
+      internalID: 527174058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_19
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 2884
+        width: 391
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b370e09049a3e41bac06080597e54c
+      internalID: 674068616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_20
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 2884
+        width: 389
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03173b4cf7dc29943b18b497e232c1be
+      internalID: 478072606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2149
+        width: 139
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e5b98337072e74faefd837a61c8abb
+      internalID: -354115475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2149
+        width: 136
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fad69e412d6c1543be52b316363b3ce
+      internalID: -430831003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_23
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2181
+        width: 204
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35224025ad75d3b4980b599bedf30ecb
+      internalID: -285483170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_24
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 2181
+        width: 377
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9b91a24e9cd9b47bf0d4ee16112e2d
+      internalID: 1289287977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_25
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 2181
+        width: 378
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe57587b1211d4b907ae6ed4978fee
+      internalID: 970462812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_26
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 2166
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e9f11abb420e34bb005bff1a294ec1
+      internalID: -1598837947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_27
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 2139
+        width: 329
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea486f4b94fffbf40b9189672f344f2a
+      internalID: -1548438347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1454
+        width: 237
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89892bfa8adcf36418e3b156ecd1f682
+      internalID: 1379717203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_29
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1454
+        width: 246
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbee864f5780954090332ac03903eed
+      internalID: -665406766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_30
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1452
+        width: 290
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d66cddc1db3e47aa73872310c33a0
+      internalID: -1343257675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_31
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1465
+        width: 313
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ff17b6f7aad344ca5aa12bb0d8bfb7
+      internalID: 471376176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_32
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 1465
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bdf03ba3fb24c4382aef680074cb13
+      internalID: 1030437508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_33
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 1417
+        width: 343
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73377f5e74debb340aa74c343d4e4fb8
+      internalID: -452273441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 697
+        width: 364
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763438e42ad99404ca5a7991e75309d0
+      internalID: 416020395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_35
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 710
+        width: 325
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c528b7236fe2df4688ba1003497f5df
+      internalID: -823143414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_36
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 683
+        width: 333
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa5b191125c7ed49868c2d01287a70d
+      internalID: -1356178716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_37
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 751
+        width: 319
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80170a2dbc01afa4980832a1268b6069
+      internalID: 1633500564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_38
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 743
+        width: 314
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bace79f963010ac40ac8b63e0aa7dbf5
+      internalID: -927178495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_39
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 743
+        width: 343
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5acf98939d84a43bd32c7b8ad9edb6
+      internalID: 120959365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_41
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 27
+        width: 204
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52274c336e52e64881b1dffc2d0a6da
+      internalID: -62440012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_42
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 87
+        width: 302
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4570101ebe3f3b240884e5e20e1b57be
+      internalID: -1788798745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_43
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 90
+        width: 349
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d8d677e8997b46958c65db108eaee
+      internalID: 204703918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_44
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 92
+        width: 264
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bd05170dd02b74fa0a50fcc2401142
+      internalID: 1574595200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_45
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 6
+        width: 333
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273bd630636ca8149a078972c8825bfb
+      internalID: 135236397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconography_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 167
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbbe2372b9214a4fab10042385a5499
+      internalID: 934444956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      iconography_0: -446630527
+      iconography_1: 1983615222
+      iconography_10: -863928344
+      iconography_11: 1927139575
+      iconography_12: 1340191785
+      iconography_13: -1007614599
+      iconography_14: -1026129492
+      iconography_15: 771687493
+      iconography_16: -676260591
+      iconography_17: -1323950448
+      iconography_18: 527174058
+      iconography_19: 674068616
+      iconography_2: -1778409893
+      iconography_20: 478072606
+      iconography_21: -354115475
+      iconography_22: -430831003
+      iconography_23: -285483170
+      iconography_24: 1289287977
+      iconography_25: 970462812
+      iconography_26: -1598837947
+      iconography_27: -1548438347
+      iconography_28: 1379717203
+      iconography_29: -665406766
+      iconography_3: -1970521237
+      iconography_30: -1343257675
+      iconography_31: 471376176
+      iconography_32: 1030437508
+      iconography_33: -452273441
+      iconography_34: 416020395
+      iconography_35: -823143414
+      iconography_36: -1356178716
+      iconography_37: 1633500564
+      iconography_38: -927178495
+      iconography_39: 120959365
+      iconography_4: 743898376
+      iconography_40: 1642390507
+      iconography_41: -62440012
+      iconography_42: -1788798745
+      iconography_43: 204703918
+      iconography_44: 1574595200
+      iconography_45: 135236397
+      iconography_46: 934444956
+      iconography_47: 40767984
+      iconography_5: 467099734
+      iconography_6: -2138280111
+      iconography_7: -1546757234
+      iconography_8: -1974019101
+      iconography_9: 85312761
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
