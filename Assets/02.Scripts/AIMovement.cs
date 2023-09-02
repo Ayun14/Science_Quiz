@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using DG.Tweening;
+using UnityEngine;
 
 public class AIMovement : MonoBehaviour
 {
     [SerializeField] private float moveRightPos;
     [SerializeField] private float moveLeftPos;
+
+    private int count = 0;
 
     private void Update()
     {
@@ -15,9 +15,12 @@ public class AIMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
             MoveRight(); // Å×½ºÆ® Input
+
+        if (GameManager.Instance.isAIMove)
+            AIRandomMove();
     }
 
-    private void RandomMove()
+    public void AIRandomMove()  
     {
         int rand = Random.Range(0, 2);
 
@@ -29,13 +32,27 @@ public class AIMovement : MonoBehaviour
 
     public void MoveRight()
     {
-        float randTime = Random.Range(0.7f, 1.5f);
-        transform.DOMoveX(moveRightPos, randTime).SetEase(Ease.OutQuad);
+        if (!GameManager.Instance.isLive)
+            return;
+
+        while(count < 1)
+        {
+            float randTime = Random.Range(0.7f, 1.5f);
+            transform.DOMoveX(moveRightPos, randTime).SetEase(Ease.OutQuad);
+            count++;
+        }
     }
 
     public void Moveleft()
     {
-        float randTime = Random.Range(0.7f, 1.5f);
-        transform.DOMoveX(moveLeftPos, randTime).SetEase(Ease.OutQuad);
+        if (!GameManager.Instance.isLive)
+            return;
+
+        while (count < 1)
+        {
+            float randTime = Random.Range(0.7f, 1.5f);
+            transform.DOMoveX(moveLeftPos, randTime).SetEase(Ease.OutQuad);
+            count++;
+        }
     }
 }
