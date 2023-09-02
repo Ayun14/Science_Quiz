@@ -293,6 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveRightPos: 2.25
   moveLeftPos: -0.75
+  count: 0
 --- !u!1 &38399034
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveRightPos: 0.55
   moveLeftPos: -2.45
+  count: 0
 --- !u!1 &58824084
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveRightPos: 2
   moveLeftPos: -1
+  count: 0
 --- !u!1 &170870352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveRightPos: 0.74
   moveLeftPos: -2.26
+  count: 0
 --- !u!1 &238286961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3927,7 +3931,7 @@ GameObject:
   - component: {fileID: 1245633184}
   m_Layer: 0
   m_Name: UI (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4460,7 +4464,7 @@ GameObject:
   - component: {fileID: 1574668401}
   m_Layer: 0
   m_Name: UI
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4751,6 +4755,7 @@ MonoBehaviour:
   xImage: {fileID: 2091173143}
   isLive: 1
   isQuizEnd: 1
+  isAIMove: 0
 --- !u!4 &1721800163
 Transform:
   m_ObjectHideFlags: 0
@@ -5376,6 +5381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveRightPos: 1.07
   moveLeftPos: -1.93
+  count: 0
 --- !u!1 &1909894899
 GameObject:
   m_ObjectHideFlags: 0

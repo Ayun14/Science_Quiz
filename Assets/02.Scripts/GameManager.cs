@@ -103,6 +103,8 @@ public class GameManager : MonoBehaviour
         quizPanel.transform.DOScale(1, 0.7f).SetEase(Ease.OutSine);
 
         isAIMove = true;
+        if (aiMovement.count >= 1)
+            isAIMove = false;
 
         quizCount++;
         switch (quizCount)
@@ -167,6 +169,8 @@ public class GameManager : MonoBehaviour
             timeCountText.text = timeCount + "";
             timeCount--;
         }
+
+        timeCountText.text = " ";
 
         quizPanel.SetActive(false);
         quizPanel.transform.DOScale(0, 0.7f).SetEase(Ease.OutSine);

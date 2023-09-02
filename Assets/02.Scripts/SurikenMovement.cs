@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class SurikenMovement : MonoBehaviour
 {
@@ -21,5 +22,13 @@ public class SurikenMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AI"))
             Destroy(collision.gameObject, 4);
+
+        if (collision.gameObject.CompareTag("Player"))
+            Invoke("PlayerDieFeedback", 1f);
+    }
+
+    private void PlayerDieFeedback()
+    {
+        GameManager.Instance.isLive = false;
     }
 }

@@ -6,7 +6,7 @@ public class AIMovement : MonoBehaviour
     [SerializeField] private float moveRightPos;
     [SerializeField] private float moveLeftPos;
 
-    private int count = 0;
+    public int count = 0;
 
     private void Update()
     {
