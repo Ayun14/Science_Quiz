@@ -102,12 +102,12 @@ public class GameManager : MonoBehaviour
         quizPanel.SetActive(true);
         quizPanel.transform.DOScale(1, 0.7f).SetEase(Ease.OutSine);
 
-        isAIMove = true;
-        if (aiMovement.count >= 1)
-            isAIMove = false;
+        quizCount++; // 퀴즈 문제 증가
 
-        quizCount++;
-        switch (quizCount)
+        isAIMove = true; // AI 움직이기
+        Debug.Log(aiMovement.count);
+
+        switch (quizCount) // 문제 설정
         {
             case 1:
                 quizText.text = "자기력이 작용하는 공간을 자기장이라고 한다."; // O
@@ -230,10 +230,19 @@ public class GameManager : MonoBehaviour
                 break;
             case 13:
                 surikenSpawner.X_SuikenSpawn();
+                quizCount = 14;
                 break;
         }
         yield return new WaitForSeconds(2);
 
+        if (quizCount == 14)
+        {
+            clearPanel.SetActive(true);
+            yield break;
+        }
+
+        aiMovement.count = 0;
+        Debug.Log(aiMovement.count);
         StartCoroutine(StageChange());
     }
 }

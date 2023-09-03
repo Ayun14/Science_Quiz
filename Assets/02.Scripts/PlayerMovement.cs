@@ -16,10 +16,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.Instance.isLive == false)
+        if (GameManager.Instance.isLive == false) // 죽었을때
             LiveCheak();
 
-        if (GameManager.Instance.isQuizEnd)
+        if (Input.GetKeyDown(KeyCode.Space)) // 개발자용 클리어 키
+            GameManager.Instance.quizCount = 14;
+
+        if (GameManager.Instance.isQuizEnd) // 퀴즈가 끝나면 움직이지 X
             return;
 
         if (Input.GetKeyDown(KeyCode.A))
@@ -42,7 +45,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void LiveCheak()
     {
-        Debug.Log("게임끝!");
         gameOverPanel.SetActive(true);
 
         switch (GameManager.Instance.quizCount)
