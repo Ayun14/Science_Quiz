@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private TextMeshProUGUI feedbackText = null;
     [SerializeField] private TextMeshProUGUI quizScoreText = null;
 
+    [SerializeField] private AudioSource[] audioSource;
+    // 0번이 맞은 사운드 1번이 틀린 사운드
+
     private void Start()
     {
         gameOverPanel.SetActive(false);
@@ -18,9 +21,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (GameManager.Instance.isLive == false) // 죽었을때
             LiveCheak();
-
-        if (Input.GetKeyDown(KeyCode.Space)) // 개발자용 클리어 키
-            GameManager.Instance.quizCount = 14;
 
         if (GameManager.Instance.isQuizEnd) // 퀴즈가 끝나면 움직이지 X
             return;
@@ -43,9 +43,97 @@ public class PlayerMovement : MonoBehaviour
         transform.DOMoveX(-1.5f, 1f).SetEase(Ease.OutQuad);
     }
 
+    public void RightSound()
+    {
+        switch (GameManager.Instance.quizCount)
+        {
+            // 0보다 크면 X 작으면 O
+            case 1: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+            case 2: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 3: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+            case 4: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 5: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+            case 6: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 7: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+            case 8: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 9: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 10: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+            case 11: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 12: // x
+                if (transform.position.x < 0)
+                    audioSource[1].Play();
+                else
+                    audioSource[0].Play();
+                break;
+            case 13: // o
+                if (transform.position.x < 0)
+                    audioSource[0].Play();
+                else
+                    audioSource[1].Play();
+                break;
+        }
+
+    }
+
     public void LiveCheak()
     {
         gameOverPanel.SetActive(true);
+        BackgroundAudio.Instance.BgmOff();
 
         switch (GameManager.Instance.quizCount)
         {

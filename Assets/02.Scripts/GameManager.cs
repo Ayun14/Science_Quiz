@@ -27,9 +27,12 @@ public class GameManager : MonoBehaviour
     public bool isLive = true;
     public bool isQuizEnd = false;
     public bool isAIMove = false;
+    public bool isRight = false;
 
     private SurikenSpawner surikenSpawner;
     private AIMovement aiMovement;
+    private PlayerMovement playerMovement;
+    [SerializeField] private AudioSource[] audioSource;
 
     private void Awake()
     {
@@ -43,6 +46,7 @@ public class GameManager : MonoBehaviour
     {
         surikenSpawner = FindObjectOfType<SurikenSpawner>();
         aiMovement = FindObjectOfType<AIMovement>();
+        playerMovement = FindObjectOfType<PlayerMovement>();
 
         oImage.SetActive(false);
         xImage.SetActive(false);
@@ -60,21 +64,25 @@ public class GameManager : MonoBehaviour
         introducePanel.SetActive(false);
 
         StartCoroutine(StageChange());
+        audioSource[0].Play();
     }
 
     public void IntroduceButtonClick()
     {
         introducePanel.SetActive(true);
         startPanel.SetActive(false);
+        audioSource[0].Play();
     }
 
     public void ExitButtonClick()
     {
+        audioSource[0].Play();
         Application.Quit();
     }
 
     public void RetryButtonClick()
     {
+        audioSource[0].Play();
         SceneManager.LoadScene(0);
     }
 
@@ -87,6 +95,7 @@ public class GameManager : MonoBehaviour
         if (quizCount >= 14)
         {
             clearPanel.SetActive(true);
+            BackgroundAudio.Instance.BgmOff();
             yield break;
         }
 
@@ -165,10 +174,12 @@ public class GameManager : MonoBehaviour
 
         while (timeCount >= 0)
         {
+            audioSource[1].Play();
             yield return new WaitForSeconds(1f);
             timeCountText.text = timeCount + "";
             timeCount--;
         }
+        audioSource[1].Stop();
 
         timeCountText.text = " ";
 
@@ -194,42 +205,55 @@ public class GameManager : MonoBehaviour
         {
             case 1:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 2:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 3:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 4:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 5:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 6:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 7:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 8:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 9:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 10:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 11:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 12:
                 surikenSpawner.O_SuikenSpawn();
+                playerMovement.RightSound();
                 break;
             case 13:
                 surikenSpawner.X_SuikenSpawn();
+                playerMovement.RightSound();
                 quizCount = 14;
                 break;
         }
@@ -242,7 +266,6 @@ public class GameManager : MonoBehaviour
         }
 
         aiMovement.count = 0;
-        Debug.Log(aiMovement.count);
         StartCoroutine(StageChange());
     }
 }

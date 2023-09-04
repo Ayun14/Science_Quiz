@@ -5,6 +5,9 @@ public class SurikenMovement : MonoBehaviour
 {
     [SerializeField] private float surikenSpeed;
 
+    private RaycastHit hit;
+    float MaxDistance = 20f;
+
     private void Update()
     {
         Movement();
