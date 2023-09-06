@@ -51,8 +51,8 @@ public class GameManager : MonoBehaviour
         oImage.SetActive(false);
         xImage.SetActive(false);
 
-        introducePanel.SetActive(false);
         startPanel.SetActive(true);
+        introducePanel.SetActive(false);
         quizPanel.SetActive(false);
         clearPanel.SetActive(false);
 
